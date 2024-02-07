@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'AxiformaBlack';
+    src: url('../../fonts/Axiforma/Axiforma-Black.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaBlackItalic';
+    src: url('../../fonts/Axiforma/Axiforma-BlackItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaBold';
+    src: url('../../fonts/Axiforma/Axiforma-Bold.ttf');
+}
+@font-face {
+    font-family: 'AxiformaBoldItalic';
+    src: url('../../fonts/Axiforma/Axiforma-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaBook';
+    src: url('../../fonts/Axiforma/Axiforma-Book.ttf');
+}
+@font-face {
+    font-family: 'AxiformaBookItalic';
+    src: url('../../fonts/Axiforma/Axiforma-BookItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaHeavy';
+    src: url('../../fonts/Axiforma/Axiforma-Heavy.ttf');
+}
+@font-face {
+    font-family: 'AxiformaHeavyItalic';
+    src: url('../../fonts/Axiforma/Axiforma-HeavyItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaThin';
+    src: url('../../fonts/Axiforma/Axiforma-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaThinItalic';
+    src: url('../../fonts/Axiforma/Axiforma-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaLight';
+    src: url('../../fonts/Axiforma/Axiforma-Light.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaLightItalic';
+    src: url('../../fonts/Axiforma/Axiforma-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaRegular';
+    src: url('../../fonts/Axiforma/Axiforma-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaItalic';
+    src: url('../../fonts/Axiforma/Axiforma-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaMedium';
+    src: url('../../fonts/Axiforma/Axiforma-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaMediumItalic';
+    src: url('../../fonts/Axiforma/Axiforma-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaSemiBold';
+    src: url('../../fonts/Axiforma/Axiforma-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaSemiBoldItalic';
+    src: url('../../fonts/Axiforma/Axiforma-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaExtraBold';
+    src: url('../../fonts/Axiforma/Axiforma-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'AxiformaExtraBoldItalic';
+    src: url('../../fonts/Axiforma/Axiforma-ExtraBoldItalic.ttf');
+}
