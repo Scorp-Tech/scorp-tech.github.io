@@ -1,14 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
-
-@font-face {
-    font-family: '';
-    src: url();
-}
-
-*,
-::after,
-::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.hello{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+    font-family: AxiformaBold;
 }

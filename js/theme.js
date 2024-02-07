@@ -8,3 +8,9 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // document.getElementById('iconFevicon').href = './Assets/Icons/Scorp_Favicon_Dark.png';
     // document.getElementById('themeStyle').href = './Assets/Style/scorp_light.css';
 }
+
+// toggle dark mode
+function toggleDarkMode() {
+    const root = document.documentElement;
+    root.classList.toggle('dark-mode');
+}
