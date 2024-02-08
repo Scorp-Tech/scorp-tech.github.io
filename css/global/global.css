@@ -28,3 +28,17 @@
     mix-blend-mode: difference;
 }
 
+/* Scroll Bar style */
+::-webkit-scrollbar {
+    width: 5px;
+    pointer-events: none;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-background); 
+    border-radius: 5px; 
+    width: 2px;
+    transition: background-color 0.3s ease
+}

@@ -2,4 +2,6 @@
     --default-color: var(--color-white);
     
     --text-primary: var(--color-white);
+    
+    --scroll-background : var(--color-c1c1c1)
 }
