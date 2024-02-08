@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="./css/global/imports.css">
     <link rel="stylesheet" href="./css/global/global.css">
     <link rel="stylesheet" href="./css//global/dark.css" id="themeStyle">
+    <style>
+        .hello{
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%); */
+            font-size: 150px;
+            font-family: AxiformaBold;
+            color: var(--text-primary);
+        }
+    </style>
 </head>
 
 <body>
@@ -24,16 +35,27 @@
         <div class="cursor-dot"></div>
     </div>
 
-    <div class="hello">ScorpTech</div>
+    <!-- <div class="hello">ScorpTech</div> -->
     <!-- Splash Screen -->
-    
+    <div class="splash">
+        <div class="background-logo"></div>
+        <div class="splash_content">
+            <img src="./assets/images/logo/Scorp_Logo_Light.png" alt="ScorpTech Logo">
+            <div class="title">Scorp</div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="hello">ScorpTech</div>
+    </div>
+    <!-- Create a splash so that the user can see the logo and the title and after 500 ms it get disappear and other content get load-->
+
 
 
     <script src="./js/theme.js"></script>
     <script src="./script.js"></script>
     <script src="./js/cursor.js"></script>
     <!-- Vendor Details -->
-    <script src="./vendor/threejs_0.161.0/three.module.min.js"/>
+    <!-- <script src="./vendor/threejs_0.161.0/three.module.min.js"/> -->
 
 </body>
 
