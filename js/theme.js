@@ -1,16 +1,14 @@
 // change icon based on the theme
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     console.log("This is a dark theme");
-    // document.getElementById('iconFevicon').href = './Assets/Icons/Scorp_Favicon_Light.png';
-    // document.getElementById('themeStyle').href = './Assets/Style/scorp_dark.css';
+    document.documentElement.style.colorScheme = 'dark'
+    document.getElementById('iconFevicon').href = './assets/icons/favicon/FV_Logo_Light.ico';
+    document.getElementById('themeStyle').href = './css/global/dark.css';
 } else {
     console.log("This is a light theme");
-    // document.getElementById('iconFevicon').href = './Assets/Icons/Scorp_Favicon_Dark.png';
-    // document.getElementById('themeStyle').href = './Assets/Style/scorp_light.css';
+    document.documentElement.style.colorScheme = 'light'
+    document.getElementById('iconFevicon').href = './assets/icons/favicon/FV_Logo_Dark.ico';
+    document.getElementById('themeStyle').href = './css/global/light.css';
 }
 
-// toggle dark mode
-function toggleDarkMode() {
-    const root = document.documentElement;
-    root.classList.toggle('dark-mode');
-}
+// need to add toggle button for changing of theme
