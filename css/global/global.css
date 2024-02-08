@@ -1,0 +1,44 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    cursor: none;
+}
+
+/* Style For Mouse Pointer */
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: var(--default-color);
+}
+.cursor-outline{
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--default-color);
+}
+
+.cursor-dot, .cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999999;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+/* Scroll Bar style */
+::-webkit-scrollbar {
+    width: 5px;
+    pointer-events: none;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-background); 
+    border-radius: 5px; 
+    width: 2px;
+    transition: background-color 0.3s ease
+}

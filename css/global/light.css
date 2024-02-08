@@ -1,0 +1,7 @@
+:root{
+    --default-color: var(--color-black);
+    
+    --text-primary: var(--color-black);
+
+    --scroll-background : var(--color-c1c1c1)
+}

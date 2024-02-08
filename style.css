@@ -5,4 +5,5 @@
     transform: translate(-50%,-50%);
     font-size: 150px;
     font-family: AxiformaBold;
+    color: var(--text-primary);
 }

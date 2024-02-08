@@ -2,43 +2,7 @@
     --color-black: #000000;
     --color-white: #ffffff;
 
+    --color-c1c1c1: #c1c1c1;
+
     --media-phone : 768px;
 }
-
-.dark{
-    --text-primary: var(--color-white);
-
-}
-.light{
-    --text-primary: var(--color-black);
-}
-
-*, ::after, ::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; 
-    cursor: none;
-}
-
-/* Style For Mouse Pointer */
-.cursor-dot{
-    width: 5px;
-    height: 5px;
-    background-color: #000000;
-}
-.cursor-outline{
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgb(0, 0, 0);
-}
-
-.cursor-dot, .cursor-outline{
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 9999999;
-    pointer-events: none;
-}
-
